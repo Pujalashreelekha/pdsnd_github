@@ -7,7 +7,7 @@ This project is created on 8th of April, 2025.
 This project is titled as **PDSND_GITHUB**
 
 ### Description
-Describe what your project is about and what it does
+This project helps users in knowing the details of most frequently taken trips on particular day or week and helps users in knowing which is the most chosen starting spot and destination spot.  
 
 ### Files used
 In this project, data files of 3 cities are used. Chicago, New York and Washington are those three cities.
