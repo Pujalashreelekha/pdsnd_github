@@ -17,10 +17,36 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-
-
+    choise = int(input("Select 1 for Chicago\nSelect 2 for New York\nSelect 3 for Washington"))
+    if choise == 1:
+        city = "chicago"
+    elif choise == 2:
+        city = "new york city"
+    elif choise ==3:
+        city = "washington"
+    else:
+        print("wrong city is chosen")
+        exit
     # get user input for month (all, january, february, ... , june)
+    month =input("Enter the month: ")
+    months = ["January", "February", "March", "April", "May", "June", 
+          "July", "August", "September", "October", "November", "December"]
+    
+    if month in months:
+        print(f"You entered a valid month: {month}")
+    else:
+        print("Invalid month entered.")
+        exit
 
+    day = input("Enter the day: ")
+    days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+
+    day = input("Enter the day: ")
+    if day in days:
+        print(f"You entered a valid day: {day}")
+    else:
+        print("Invalid day entered.")
+        exit
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
 
