@@ -10,7 +10,7 @@ This project is titled as **PDSND_GITHUB**
 Describe what your project is about and what it does
 
 ### Files used
-Include the files used
+In this project, data files of 3 cities are used. Chicago, New York and Washington are those three cities.
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
